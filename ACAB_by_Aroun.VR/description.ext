@@ -1,0 +1,58 @@
+/*
+Note à tous :
+Salut à toi et bienvenu sur ma mission.
+Pour être clair j'autorise l'utilisation et la modification des fichiers.
+La seul chose demandé est de ne pas toucher à mes crédits (Signatures, commentaires (Toutes les zones comme celle-ci qui servent à l'échange))
+Merci de ne pas garder les sources pour toi si l'on te demande,
+ce n'est pas protéger mon travail mais y mettre un frein, je partage pour tous merci de ne pas nuir à ma démarche.
+Bon jeu à tous !
+-Aroun- (Dev'Arma 3 France) / http://www.devarma3france.fr/
+*/
+author = "[DA3F] Aroun Le BriCodeur (MCF)"; // Tu peux changer
+Dev = "[DA3F] Aroun Le BriCodeur (MCF GaminG)"; // Merci de respecter (n'est pas visible)
+onLoadName = "-A.C.A.B-"; // Tu peux changer
+loadScreen = "\A3\ui_f\data\map\Respawn\icon_dead_ca.paa";  // Tu peux changer image de chargement perso je la vire pour éviter l'erreur de chargement qu'Arma traîne depuis des années en soit pas très grave moi ça m'gave ^^
+// Tu peux changer (Text sous l'image PAS DE ROMAN )
+onLoadMission = "<t size='.85' align = 'center' color='#1932EB'>Mi</t><t size='.65' align = 'center' color='#FFFFFF'>ssi</t><t size='.85' align = 'center' color='#FA0D0D'>on</t><br/><t align = 'center' size='1.1' color='#1932EB'>All</t><t align = 'center' size='1.1' color='#FFFFFF'>COPS</t><t align = 'center' size='1.1' color='#FA0D0D'>ALL</t><br/><t align = 'center' size='1.3' color='#1932EB'>Bas</t><t align = 'center' size='1.3' color='#FFFFFF'>ta</t><t align = 'center' size='1.3' color='#FA0D0D'>rD</t>";
+// Tu ne touche pas sauf si tu sais ce que tu fais !
+joinUnassigned = 1;
+respawn = BASE;
+respawndelay = 0; // Laisse à 0 . Go config_Mission pour le temps de respawn
+disabledAI = 1; // n'influt pas sur l'ennemi juste les slots jouable
+disableChannels[]={{0,false,false},{1,false,false},{2,false,false},{6,false,false}};
+enableDebugConsole = 1;
+respawnDialog = 1;
+
+class Header
+{
+	gameType = COOP;
+	minPlayers = 1;
+	maxPlayers = 10;
+};
+
+
+/*
+Touche pas à ce qui suit sauf si tu sais ce que tu fais !
+*/
+
+
+    #include "DA3F\Dialog\DA3F_MasterGui.hpp"
+/*
+    #include "Cfg_Vehicle_PAS_EN_PLACE.hpp"
+    #include "Cfg_DA3FDynMission.hpp"
+    #include "CfgRemoteExec.hpp"
+*/
+
+
+class RscTitles {
+	//#include "DA3F_All_titles.hpp"
+};
+
+class CfgFunctions {
+    #include "functions.hpp"
+};
+
+// A venir...
+class CfgSounds {
+    sounds[] = {};
+};
