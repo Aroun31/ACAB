@@ -22,6 +22,8 @@
 	*				peut-être peux-tu participer à cette amande.
 	*				peu importe la hauteur de la contribution elle sera forcément la bienvenue ;)
 	*
+	*				https://www.paypal.me/LeBriCodeur
+	*
 	*					!!!		MERCI DE PRENDRE CONNAISSANCE DE LA LICENSE AVANT TOUTE UTILISATION		!!!
 	*
 	*							!!!		EN CAS DE NON RESPECT, IL EN VA DE VOTRE RESPONSABILITÉ		!!!
