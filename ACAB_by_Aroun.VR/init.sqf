@@ -22,6 +22,10 @@
 	*				peut-être peux-tu participer à cette amande.
 	*				peu importe la hauteur de la contribution elle sera forcément la bienvenue ;)
 	*
+	*					!!!		MERCI DE PRENDRE CONNAISSANCE DE LA LICENSE AVANT TOUTE UTILISATION		!!!
+	*
+	*							!!!		EN CAS DE NON RESPECT, IL EN VA DE VOTRE RESPONSABILITÉ		!!!
+	*
     *       ARGUMENTS :
     *               -------------
     *       EXEMPLES :
@@ -38,4 +42,4 @@
 				player setVariable ["DA3F_PoseInfo",[],false];
 	}];
 
-	player addAction ["Run DA3F ACAB",DA3F_fnc_init_gui,nil,150,true,false,"","!(isNull _target) && (_this distance _target)< 5"];
+	player addAction ["Run script ACAB",DA3F_fnc_init_gui,nil,150,true,false,"","!(isNull _target) && (_this distance _target)< 5"];
