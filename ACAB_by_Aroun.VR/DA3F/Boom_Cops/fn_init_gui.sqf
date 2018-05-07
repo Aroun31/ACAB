@@ -21,12 +21,6 @@
     *
 	*/
 
-/*
-	if !(player getVariable ["DA3F_ACAB",false]) exitWith {
-		hint parseText format ["<t color='#31400'>Aucune bombe posé<t/>", nil];
-	};
-*/
-
 	if !(createDialog "DA3F_Gui_ACAB") exitWith {};
 
 	disableSerialization;
@@ -50,6 +44,5 @@
 
 	if (player getVariable ["DA3F_ACAB",false]) then {
 		_DA3F_CtrlList ctrlShow false;
-		//hint parseText format ["<t color='#31400'>Aucune bombe posé<t/>", nil];
 		[]spawn DA3F_fnc_CamCible;
 	};
