@@ -50,7 +50,7 @@
 
 		if (isNull _DA3F_Flic) exitWith {};
 
-		player removeMagazine "DemoCharge_Remote_Mag";
+		player removeMagazine "DemoCharge_Remote_Ammo";
 		_DA3F_CreateBoom 		= _DA3F_TypeCharge createVehicle [0,0,500];
 		_DA3F_CreateBoom attachTo [_DA3F_Flic, [-0.1, 0.1, 0.2], "Pelvis"];
 		_DA3F_CreateBoom setVectorDirAndUp [ [0.5, 0.5, 0], [-0.5, 0.5, 0]];
